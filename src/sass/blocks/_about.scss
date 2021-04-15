@@ -1,0 +1,60 @@
+.about {
+    padding-top: 66px;
+    &__wrapp {
+        padding: 0 70px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__img {
+        width: 363px;
+        height: 475px;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    &__text {
+        width: 560px;
+    }
+    &__title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        color: #454649;
+    }
+    &__subtitle {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        color: #454649;
+        margin-top: 12px;
+    }
+    &__advantages {
+        margin-top: 42px;
+    }
+    &__item {
+        display: flex;
+        
+        margin-top: 32px;
+        &__img {
+            width: 36px;
+            height: 36px;
+            margin-right: 40px;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        &__text {
+            width: 463px;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 21px;
+            color: #454649;
+        }
+    }
+}
